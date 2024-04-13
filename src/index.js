@@ -8,14 +8,20 @@ import {
 } from 'react-router-dom'
 
 import './style.css'
+import TermsOfUse from './views/terms-of-use'
+import Page from './views/page'
 import Home from './views/home'
+import Privacy from './views/privacy'
 import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
       <Switch>
+        <Route component={TermsOfUse} exact path="/terms" />
+        <Route component={Page} exact path="/page" />
         <Route component={Home} exact path="/" />
+        <Route component={Privacy} exact path="/privacy" />
         <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
