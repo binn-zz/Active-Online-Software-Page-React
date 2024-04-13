@@ -120,7 +120,7 @@ closeButton.addEventListener("click", function() {
         <header className="home-header">
           <h1 className="home-text003">
             <span>
-              Boosst Your
+              Boost Your
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
@@ -148,7 +148,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-outline">
             <img
               alt="pastedImage"
-              src="/pastedimage-cdo-1000h.png"
+              src="/connectailydahsboard-1000h.jpeg"
               loading="lazy"
               className="home-image"
             />
@@ -504,9 +504,16 @@ closeButton.addEventListener("click", function() {
               <span className="home-text055">
                 Register and try connectaily for free
               </span>
-              <div className="home-get-started06 template-button">
-                <span className="home-text056">Start for free</span>
-              </div>
+              <a
+                href="https://app.connectaily.com/connectaily/register"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link10"
+              >
+                <div className="home-get-started06 template-button">
+                  <span className="home-text056">Start for free</span>
+                </div>
+              </a>
               <span className="home-text057">What&apos;s included</span>
               <div className="home-bullet-points">
                 <div className="home-point">
@@ -584,16 +591,23 @@ closeButton.addEventListener("click", function() {
               </div>
             </div>
             <div className="home-card1">
-              <span className="home-text076">Pay as you go</span>
+              <span className="home-text076">Basic</span>
               <span className="home-text077">
                 Get exclusive access with $25 per month
               </span>
-              <div className="home-get-started07 template-button">
-                <span className="home-text078">
-                  <span>Upgrade now</span>
-                  <br></br>
-                </span>
-              </div>
+              <a
+                href="https://app.connectaily.com/connectaily/register"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link11"
+              >
+                <div className="home-get-started07 template-button">
+                  <span className="home-text078">
+                    <span>Buy Now</span>
+                    <br></br>
+                  </span>
+                </div>
+              </a>
               <span className="home-text081">What&apos;s included</span>
               <div className="home-bullet-points1">
                 <div className="home-point06">
@@ -681,12 +695,19 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <div className="home-get-started08 template-button">
-                <span className="home-text102">
-                  <span>Contact us</span>
-                  <br></br>
-                </span>
-              </div>
+              <a
+                href="https://app.connectaily.com/connectaily/register"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link12"
+              >
+                <div className="home-get-started08 template-button">
+                  <span className="home-text102">
+                    <span>Buy Now</span>
+                    <br></br>
+                  </span>
+                </div>
+              </a>
               <span className="home-text105">What&apos;s included</span>
               <div className="home-bullet-points2">
                 <div className="home-point12"></div>
@@ -793,7 +814,7 @@ closeButton.addEventListener("click", function() {
               href="https://app.connectaily.com/connectaily/register"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link10"
+              className="home-link13"
             >
               <div className="home-get-started09 template-button">
                 <span className="home-text127">
@@ -839,7 +860,7 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/terms"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link11"
+                className="home-link14"
               >
                 Terms and Conditions
               </a>
@@ -849,7 +870,7 @@ closeButton.addEventListener("click", function() {
               <span className="home-text135">Contact</span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="home-link12"
+                className="home-link15"
               >
                 admin@connectaily.com
               </a>
@@ -868,7 +889,7 @@ closeButton.addEventListener("click", function() {
                     <br></br>
                     <a
                       href="mailto:admin@connectaily.com?subject=Support"
-                      className="home-link13"
+                      className="home-link16"
                     >
                       Email us
                     </a>
@@ -877,7 +898,7 @@ closeButton.addEventListener("click", function() {
                       href="https://connectaily.com/privacy"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link14"
+                      className="home-link17"
                     >
                       Privacy
                     </a>
@@ -886,7 +907,7 @@ closeButton.addEventListener("click", function() {
                       href="https://connectaily.com/terms"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link15"
+                      className="home-link18"
                     >
                       Terms of use
                     </a>
@@ -908,7 +929,7 @@ closeButton.addEventListener("click", function() {
             href="https://itwhistle.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="home-link16"
+            className="home-link19"
           >
             <img
               alt="image"
