@@ -4,7 +4,6 @@ import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import YouTube from '../components/you-tube'
-import Testimonal from '../components/testimonal'
 import './home.css'
 
 const Home = (props) => {
@@ -36,21 +35,46 @@ const Home = (props) => {
           <div className="home-desktop-navigation">
             <nav className="home-centered">
               <div className="home-left">
-                <img
-                  alt="pastedImage"
-                  src="/connectaily%20(26)-1500h.png"
-                  className="home-logo1"
-                />
+                <a
+                  href="https://connectaily.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-link"
+                >
+                  <img
+                    alt="pastedImage"
+                    src="/connectaily%20(26)-1500h.png"
+                    className="home-logo1"
+                  />
+                </a>
                 <div className="home-links1">
-                  <span className="Link">Solutions</span>
-                  <span className="Link">How it works</span>
+                  <a href="#solution" className="home-link01 Link">
+                    Solutions
+                  </a>
+                  <a href="#works" className="home-link02 Link">
+                    How it works
+                  </a>
                   <span className="Link">Prices</span>
                 </div>
               </div>
               <div className="home-right">
-                <span className="home-sign-in Link">Sign in</span>
+                <a
+                  href="https://app.connectaily.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="home-sign-in Link"
+                >
+                  Sign in
+                </a>
                 <div className="home-get-started">
-                  <span className="home-text006">Get started</span>
+                  <a
+                    href="https://app.connectaily.com/connectaily/register"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-link03"
+                  >
+                    Get started
+                  </a>
                 </div>
                 <div id="open-mobile-menu" className="home-burger-menu">
                   <img
@@ -92,27 +116,27 @@ closeButton.addEventListener("click", function() {
           </div>
         </div>
         <header className="home-header">
-          <h1 className="home-text007">
+          <h1 className="home-text004">
             <span>
-              Boost Your
+              Boosst Your
               <span
                 dangerouslySetInnerHTML={{
                   __html: ' ',
                 }}
               />
             </span>
-            <span className="home-text009">Social Media</span>
+            <span className="home-text006">Social Media</span>
             <span> Presence with Connectaily</span>
           </h1>
-          <p className="home-text011">
+          <p className="home-text008">
             Automate your social media marketing with cutting-edge AI technology
           </p>
-          <div className="home-get-started1">
+          <div className="home-get-started01">
             <a
-              href="https://app.connectaily.com"
+              href="https://app.connectaily.com/connectaily/register"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link"
+              className="home-link04"
             >
               Get started
             </a>
@@ -131,7 +155,7 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className="home-features">
         <div className="home-title">
-          <span className="home-text012">
+          <span className="home-text009">
             <span>
               Let&apos;s grow your
               <span
@@ -140,7 +164,7 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </span>
-            <span className="home-text014">social media</span>
+            <span className="home-text011">social media</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -151,20 +175,20 @@ closeButton.addEventListener("click", function() {
             <br></br>
             <span>presence</span>
           </span>
-          <span className="home-text018">
+          <span className="home-text015">
             Hassle free automated social media marketing with AI
           </span>
         </div>
         <div className="home-cards">
-          <div className="home-container03">
+          <div id="solution" className="home-container03">
             <div className="card">
               <img
                 alt="pastedImage"
                 src="/pastedimage-fii6m-200h.png"
                 className="home-icon02"
               />
-              <span className="home-text019">Schedule</span>
-              <span className="home-text020">
+              <span className="home-text016">Schedule</span>
+              <span className="home-text017">
                 Effortlessly schedule your social media posts, manage content,
                 and track analytics with our AI-powered platform. Grow your
                 audience, generate leads, and seamlessly integrate with other
@@ -178,8 +202,8 @@ closeButton.addEventListener("click", function() {
                 src="/pastedimage-mimg-200h.png"
                 className="home-icon03"
               />
-              <span className="home-text021">Publish</span>
-              <span className="home-text022">
+              <span className="home-text018">Publish</span>
+              <span className="home-text019">
                 Elevate your social media presence with Connectaily&apos;s
                 advanced AI-powered scheduling. Drive business growth, lead
                 generation, and seamless tool integration.All in one tool!
@@ -193,8 +217,8 @@ closeButton.addEventListener("click", function() {
                 src="/pastedimage-l6p-200h.png"
                 className="home-icon04"
               />
-              <span className="home-text023">Analyze</span>
-              <span className="home-text024">
+              <span className="home-text020">Analyze</span>
+              <span className="home-text021">
                 Stay ahead of the competition with our advanced social media
                 analytics tools. Track engagement, monitor trends, and optimize
                 your strategy for maximum results.
@@ -206,8 +230,8 @@ closeButton.addEventListener("click", function() {
                 src="/pastedimage-l6p-200h.png"
                 className="home-icon05"
               />
-              <span className="home-text025">Get leads</span>
-              <span className="home-text026">
+              <span className="home-text022">Get leads</span>
+              <span className="home-text023">
                 Stay ahead of the competition with our advanced social media
                 analytics tools. Track engagement, monitor trends, and optimize
                 your strategy for maximum results.
@@ -223,14 +247,10 @@ closeButton.addEventListener("click", function() {
             option.”
           </span>
           <div className="home-author">
-            <img
-              alt="image"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDV8fGdpcmx8ZW58MHx8fHwxNjY0ODA5MjE1&amp;ixlib=rb-1.2.1&amp;w=200"
-              className="home-avatar"
-            />
+            <img alt="image" src="/srini-200w.png" className="home-avatar" />
             <span className="home-quote1">
-              <span className="home-text027">—  Ramesh</span>
-              <span>, Founder and CEO, Siri Tech</span>
+              <span className="home-text024">—  Srini</span>
+              <span>, Founder and CEO, Mazelon</span>
             </span>
           </div>
         </div>
@@ -239,19 +259,26 @@ closeButton.addEventListener("click", function() {
         <div className="home-banner-manage">
           <div className="home-container05">
             <div className="home-left1">
-              <span className="home-text029 sub-title">Content Management</span>
-              <span className="home-text030 title">
+              <span className="home-text026 sub-title">Content Management</span>
+              <span className="home-text027 title">
                 Manage all your platforms in just one place.
               </span>
-              <span className="home-text031">
+              <span className="home-text028">
                 Your all-in-one solution for social media marketing! With our
                 advanced AI technology we make managing your social media
                 accounts hassle-free. Let us help you grow your online presence
                 and generate more leads for your business.
               </span>
-              <div className="home-get-started2 template-button">
-                <span className="home-text032">Get started</span>
-              </div>
+              <a
+                href="https://app.connectaily.com/connectaily/register"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link05"
+              >
+                <div className="home-get-started02 template-button">
+                  <span className="home-text029">Start Free</span>
+                </div>
+              </a>
             </div>
             <div className="home-image-container">
               <img
@@ -272,7 +299,7 @@ closeButton.addEventListener("click", function() {
               />
             </div>
             <div className="home-right1">
-              <span className="home-text033 sub-title">
+              <span className="home-text030 sub-title">
                 Reporting Metrics
                 <span
                   dangerouslySetInnerHTML={{
@@ -280,12 +307,12 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <h2 className="home-text034 title">
+              <h2 className="home-text031 title">
                 Advanced analytics, easy to understand.
               </h2>
               <div className="home-category">
-                <span className="home-text035">Power reports</span>
-                <span className="home-text036">
+                <span className="home-text032">Power reports</span>
+                <span className="home-text033">
                   {' '}
                   With our cutting-edge AI technology and powerful analytics
                   tools, we make it easy for businesses to boost their online
@@ -295,12 +322,14 @@ closeButton.addEventListener("click", function() {
                   business thrive!
                 </span>
                 <a
-                  href="https://app.connectaily.com"
+                  href="https://app.connectaily.com/connectaily/register"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link1"
+                  className="home-link06"
                 >
-                  Get Started
+                  <div className="home-get-started03 template-button">
+                    <span className="home-text034">Get started</span>
+                  </div>
                 </a>
               </div>
             </div>
@@ -309,11 +338,11 @@ closeButton.addEventListener("click", function() {
         <div className="home-banner">
           <div className="home-container06">
             <div className="home-left2">
-              <span className="home-text037">Improve Scheduling</span>
-              <h2 className="home-text038 title">
+              <span className="home-text035">Improve Scheduling</span>
+              <h2 className="home-text036 title">
                 Powerful scheduler that saves you time
               </h2>
-              <span className="home-text039">
+              <span className="home-text037">
                 With our advanced scheduling feature, powered by AI technology,
                 we make it effortless for businesses to plan and automate posts.
                 Analyze performance, generate leads, and enjoy seamless
@@ -321,9 +350,16 @@ closeButton.addEventListener("click", function() {
                 options to suit your needs and let Connectaily simplify your
                 social media management to help your business thrive online.
               </span>
-              <div className="home-get-started3 template-button">
-                <span className="home-text040">Get started</span>
-              </div>
+              <a
+                href="https://app.connectaily.com/connectaily/register"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link07"
+              >
+                <div className="home-get-started04 template-button">
+                  <span className="home-text038">Get started</span>
+                </div>
+              </a>
             </div>
             <div className="home-image-container2">
               <img
@@ -338,11 +374,11 @@ closeButton.addEventListener("click", function() {
       <section className="home-integrations">
         <div className="home-centered-container1">
           <div className="home-heading">
-            <span className="home-text041 sub-title">Integrations</span>
+            <span className="home-text039 sub-title">Integrations</span>
             <span className="title">
               Integrated with the tools you know and love
             </span>
-            <span className="home-text043">
+            <span className="home-text041">
               Your ultimate social media marketing partner! Utilizing
               state-of-the-art AI technology, automated scheduling, and robust
               analytics tools, we empower businesses to boost their online
@@ -370,16 +406,16 @@ closeButton.addEventListener("click", function() {
         </div>
       </section>
       <section className="home-how-it-works">
-        <div className="home-centered-container2">
+        <div id="works" className="home-centered-container2">
           <div className="home-heading1">
-            <span className="home-text044">How it works</span>
-            <span className="home-text045 title">
+            <span className="home-text042">How it works</span>
+            <span className="home-text043 title">
               Being social and getting leads has never been easier
             </span>
           </div>
           <div className="home-category1">
             <div className="home-headng">
-              <span className="home-text046">
+              <span className="home-text044">
                 1 — Sign up
                 <span
                   dangerouslySetInnerHTML={{
@@ -387,14 +423,21 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <span className="home-text047">
+              <span className="home-text045">
                 Enroll with Connectaily to access AI-generated social media
                 marketing, designed to efficiently expand your business
                 outreach.
               </span>
-              <div className="home-get-started4 template-button">
-                <span className="home-text048">Get started</span>
-              </div>
+              <a
+                href="https://app.connectaily.com/connectaily/register"
+                target="_blank"
+                rel="noreferrer noopener"
+                className="home-link08"
+              >
+                <div className="home-get-started05 template-button">
+                  <span className="home-text046">Get started</span>
+                </div>
+              </a>
             </div>
             <div className="home-container09">
               <img
@@ -407,8 +450,8 @@ closeButton.addEventListener("click", function() {
           <div className="home-row">
             <div className="home-category2">
               <div className="home-headng1">
-                <span className="home-text049">2 — Act</span>
-                <span className="home-text050">
+                <span className="home-text047">2 — Act</span>
+                <span className="home-text048">
                   Integrate all your social media platforms seamlessly and
                   commence scheduling and posting content through
                   Connectaily&apos;s AI-driven capabilities.
@@ -422,8 +465,8 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="home-category3">
               <div className="home-headng2">
-                <span className="home-text051">3 — Act</span>
-                <span className="home-text052">
+                <span className="home-text049">3 — Scale</span>
+                <span className="home-text050">
                   Utilize Connectaily to analyze daily statistics, thereby
                   validating and enhancing your social media presence to
                   effectively generate more leads.
@@ -441,29 +484,29 @@ closeButton.addEventListener("click", function() {
       <section className="home-pricing">
         <div className="home-centered-container3">
           <div className="home-heading2">
-            <span className="home-text053 title">
+            <span className="home-text051 title">
               Pricing for all kind of businesses
             </span>
-            <span className="home-text054">
+            <span className="home-text052">
               Create next-generation solutions for small business customers with
               pricing options that accommodate everyone.
             </span>
             <div className="home-selection">
-              <span className="home-text055">Monthly</span>
-              <span className="home-text056">Yearly</span>
+              <span className="home-text053">Monthly</span>
+              <span className="home-text054">Yearly</span>
             </div>
           </div>
           <div className="home-cards1">
             <div className="home-card">
-              <span className="home-text057">Free</span>
-              <span className="home-text058">
+              <span className="home-text055">Free</span>
+              <span className="home-text056">
                 test lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed doliqua.
               </span>
-              <div className="home-get-started5 template-button">
-                <span className="home-text059">Start for free</span>
+              <div className="home-get-started06 template-button">
+                <span className="home-text057">Start for free</span>
               </div>
-              <span className="home-text060">What&apos;s included</span>
+              <span className="home-text058">What&apos;s included</span>
               <div className="home-bullet-points">
                 <div className="home-point">
                   <svg
@@ -472,7 +515,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text061">
+                  <span className="home-text059">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -483,26 +526,26 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text062">
+                  <span className="home-text060">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
               </div>
             </div>
             <div className="home-card1">
-              <span className="home-text063">Pay as you go</span>
-              <span className="home-text064">
+              <span className="home-text061">Pay as you go</span>
+              <span className="home-text062">
                 <span>Launch your lorem for $49/mo</span>
                 <br></br>
                 <span>lorem ipsum dolor sit amet, consectetur adipiscing.</span>
               </span>
-              <div className="home-get-started6 template-button">
-                <span className="home-text068">
+              <div className="home-get-started07 template-button">
+                <span className="home-text066">
                   <span>Upgrade now</span>
                   <br></br>
                 </span>
               </div>
-              <span className="home-text071">What&apos;s included</span>
+              <span className="home-text069">What&apos;s included</span>
               <div className="home-bullet-points1">
                 <div className="home-point02">
                   <svg
@@ -511,7 +554,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text072">
+                  <span className="home-text070">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -522,7 +565,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text073">
+                  <span className="home-text071">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -533,7 +576,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text074">
+                  <span className="home-text072">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -544,28 +587,28 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text075">
+                  <span className="home-text073">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
               </div>
             </div>
             <div className="home-card2">
-              <span className="home-text076">Enterprise</span>
-              <span className="home-text077">
+              <span className="home-text074">Enterprise</span>
+              <span className="home-text075">
                 <span>
                   Custom-built lorem ipsum dolor sit amet, consectetur
                   adipiscing elit, sed doliqua.
                 </span>
                 <br></br>
               </span>
-              <div className="home-get-started7 template-button">
-                <span className="home-text080">
+              <div className="home-get-started08 template-button">
+                <span className="home-text078">
                   <span>Contact us</span>
                   <br></br>
                 </span>
               </div>
-              <span className="home-text083">What&apos;s included</span>
+              <span className="home-text081">What&apos;s included</span>
               <div className="home-bullet-points2">
                 <div className="home-point06">
                   <svg
@@ -574,7 +617,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text084">
+                  <span className="home-text082">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -585,7 +628,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text085">
+                  <span className="home-text083">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -596,7 +639,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text086">
+                  <span className="home-text084">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -607,7 +650,7 @@ closeButton.addEventListener("click", function() {
                   >
                     <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
                   </svg>
-                  <span className="home-text087">
+                  <span className="home-text085">
                     Sed ut pespiciatis unde omnis
                   </span>
                 </div>
@@ -616,79 +659,15 @@ closeButton.addEventListener("click", function() {
           </div>
         </div>
       </section>
-      <section className="home-testimonals">
-        <div className="home-left3">
-          <span className="home-text088">Testimonals</span>
-          <span className="home-text089 title">
-            What people say about Connectaily
-          </span>
-        </div>
-        <div className="home-right2">
-          <div className="home-column">
-            <Testimonal
-              quote='"Pellentesque sodales libero nulla, ac imperdiet ante tincidunt vel. Fusce auctor augue sed massa finibus, et dictum sem mollis. In luctus.”'
-              avatarSrc="/image552912-e3yq-200h.png"
-            ></Testimonal>
-            <Testimonal
-              from="Social Club"
-              name="Jessica Smith"
-              quote="“Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.\u2028 Inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.”"
-              avatarSrc="/image312912-mvsg-200h.png"
-            ></Testimonal>
-            <Testimonal
-              from="BeMe"
-              name="Logan Boy"
-              quote="“Totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo..”"
-              avatarSrc="/image502912-6wy-200h.png"
-            ></Testimonal>
-            <Testimonal
-              from="Hello W."
-              name="Laraine Summers"
-              quote="“Rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae.”"
-              avatarSrc="/image202912-zekh-200h.png"
-            ></Testimonal>
-          </div>
-          <div className="home-column1">
-            <Testimonal
-              from="Handsly"
-              name="William McPau"
-              quote='"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”'
-              avatarSrc="/image572912-0d3-200h.png"
-            ></Testimonal>
-            <Testimonal
-              from="Share"
-              name="Mariah Mae"
-              quote="“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.”"
-              avatarSrc="/image632913-swij-200h.png"
-            ></Testimonal>
-            <Testimonal
-              from="Gather"
-              name="John Finati"
-              quote='"Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.”'
-              avatarSrc="/image102913-x4z8-200h.png"
-            ></Testimonal>
-            <Testimonal
-              from="Zigo"
-              name="Mary Pau"
-              quote='"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ”'
-              avatarSrc="/image562913-ycff-200h.png"
-            ></Testimonal>
-          </div>
-        </div>
-        <span className="home-text090">
-          <span>Show more</span>
-          <br></br>
-        </span>
-      </section>
       <section className="home-action-bar">
         <div className="home-action">
           <div className="home-heading3">
-            <span className="home-text093 title">
+            <span className="home-text086 title">
               <span>Get leads now </span>
               <br></br>
               <span>with Connectaily!</span>
             </span>
-            <span className="home-text097">
+            <span className="home-text090">
               Discover the ultimate solution for lead generation with
               Connectaily. Our innovative AI-driven platform empowers you to not
               only enhance your social media presence but also strategically
@@ -697,12 +676,19 @@ closeButton.addEventListener("click", function() {
               meaningful business growth through targeted engagement and
               conversion-focused strategies.
             </span>
-            <div className="home-get-started8 template-button">
-              <span className="home-text098">
-                <span>Start free</span>
-                <br></br>
-              </span>
-            </div>
+            <a
+              href="https://app.connectaily.com/connectaily/register"
+              target="_blank"
+              rel="noreferrer noopener"
+              className="home-link09"
+            >
+              <div className="home-get-started09 template-button">
+                <span className="home-text091">
+                  <span>Start free</span>
+                  <br></br>
+                </span>
+              </div>
+            </a>
           </div>
           <div className="home-images">
             <img
@@ -715,8 +701,8 @@ closeButton.addEventListener("click", function() {
       </section>
       <footer className="home-footer">
         <div className="home-top">
-          <div className="home-left4">
-            <span className="home-text101">Subscribe to our newsletter</span>
+          <div className="home-left3">
+            <span className="home-text094">Subscribe to our newsletter</span>
             <div className="home-subscription">
               <input
                 type="email"
@@ -724,10 +710,10 @@ closeButton.addEventListener("click", function() {
                 className="home-textinput input"
               />
               <div className="home-subscribe">
-                <span className="home-text102">Subscribe</span>
+                <span className="home-text095">Subscribe</span>
               </div>
             </div>
-            <span className="home-text103">
+            <span className="home-text096">
               <span>
                 By subscribing to our newsletter you agree with our
                 <span
@@ -740,37 +726,36 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/terms"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link2"
+                className="home-link10"
               >
                 Terms and Conditions
               </a>
               <span>.</span>
             </span>
             <div className="home-contact">
-              <span className="home-text106">Contact</span>
+              <span className="home-text099">Contact</span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="home-link3"
+                className="home-link11"
               >
                 admin@connectaily.com
               </a>
             </div>
           </div>
         </div>
-        <div className="home-bottom"></div>
         <div className="home-container10">
           <div className="home-container11">
             <div className="home-container12">
               <div className="home-container13">
                 <div className="home-container14">
-                  <span className="home-text107">
+                  <span className="home-text100">
                     <br></br>
                     <span>©</span>
                     <span>2024 Connectaily • Crafted by</span>
                     <br></br>
                     <a
                       href="mailto:admin@connectaily.com?subject=Support"
-                      className="home-link4"
+                      className="home-link12"
                     >
                       Email us
                     </a>
@@ -779,7 +764,7 @@ closeButton.addEventListener("click", function() {
                       href="https://connectaily.com/privacy"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link5"
+                      className="home-link13"
                     >
                       Privacy
                     </a>
@@ -788,7 +773,7 @@ closeButton.addEventListener("click", function() {
                       href="https://connectaily.com/terms"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link6"
+                      className="home-link14"
                     >
                       Terms of use
                     </a>
@@ -810,7 +795,7 @@ closeButton.addEventListener("click", function() {
             href="https://itwhistle.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="home-link7"
+            className="home-link15"
           >
             <img
               alt="image"

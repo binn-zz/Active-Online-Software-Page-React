@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
@@ -48,22 +49,49 @@ const TermsOfUse = (props) => {
           <div className="terms-of-use-desktop-navigation">
             <nav className="terms-of-use-centered">
               <div className="terms-of-use-left">
-                <img
-                  alt="pastedImage"
-                  src="/connectaily%20(26)-1500h.png"
-                  className="terms-of-use-logo1"
-                />
+                <a
+                  href="https://connectaily.com"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="terms-of-use-link"
+                >
+                  <img
+                    alt="pastedImage"
+                    src="/connectaily%20(26)-1500h.png"
+                    className="terms-of-use-logo1"
+                  />
+                </a>
                 <div className="terms-of-use-links1">
-                  <span className="Link">Solutions</span>
-                  <span className="Link">How it works</span>
-                  <span className="Link">Prices</span>
+                  <Link to="/" className="terms-of-use-navlink Link">
+                    Solutions
+                  </Link>
+                  <Link to="/" className="terms-of-use-navlink1 Link">
+                    How it works
+                  </Link>
+                  <Link to="/" className="terms-of-use-navlink2 Link">
+                    Prices
+                  </Link>
                 </div>
               </div>
               <div className="terms-of-use-right">
-                <span className="terms-of-use-sign-in Link">Sign in</span>
-                <div className="terms-of-use-get-started">
-                  <span className="terms-of-use-text006">Get started</span>
-                </div>
+                <a
+                  href="https://app.connectaily.com/connectaily/login"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="terms-of-use-sign-in Link"
+                >
+                  Sign in
+                </a>
+                <a
+                  href="https://app.connectaily.com/connectaily/register"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="terms-of-use-link01"
+                >
+                  <div className="terms-of-use-get-started">
+                    <span className="terms-of-use-text003">Get started</span>
+                  </div>
+                </a>
                 <div id="open-mobile-menu" className="terms-of-use-burger-menu">
                   <img
                     alt="pastedImage"
@@ -105,7 +133,7 @@ closeButton.addEventListener("click", function() {
         </div>
       </section>
       <header className="terms-of-use-header">
-        <p className="terms-of-use-text007">
+        <p className="terms-of-use-text004">
           <span>Terms of Use</span>
           <br></br>
           <br></br>
@@ -123,7 +151,7 @@ closeButton.addEventListener("click", function() {
             href="https://connectaily.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="terms-of-use-link"
+            className="terms-of-use-link02"
           >
             https://connectaily.com/
           </a>
@@ -137,7 +165,7 @@ closeButton.addEventListener("click", function() {
             />
           </span>
           <br></br>
-          <span className="terms-of-use-text014">IT Whistle Corporation</span>
+          <span className="terms-of-use-text011">IT Whistle Corporation</span>
           <span>
             {' '}
             govern your use of the connectaily software and any related services
@@ -192,7 +220,7 @@ closeButton.addEventListener("click", function() {
             href="https://www.youtube.com/t/terms"
             target="_blank"
             rel="noreferrer noopener"
-            className="terms-of-use-link1"
+            className="terms-of-use-link03"
           >
             https://www.youtube.com/t/terms
           </a>
@@ -397,7 +425,7 @@ closeButton.addEventListener("click", function() {
           </span>
           <a
             href="mailto:admin@connectaily.com?subject=Support"
-            className="terms-of-use-link2"
+            className="terms-of-use-link04"
           >
             admin@connectaily.com
           </a>
@@ -417,7 +445,7 @@ closeButton.addEventListener("click", function() {
       <footer className="terms-of-use-footer">
         <div className="terms-of-use-top">
           <div className="terms-of-use-left1">
-            <span className="terms-of-use-text138">
+            <span className="terms-of-use-text135">
               Subscribe to our newsletter
             </span>
             <div className="terms-of-use-subscription">
@@ -427,62 +455,21 @@ closeButton.addEventListener("click", function() {
                 className="terms-of-use-textinput input"
               />
               <div className="terms-of-use-subscribe">
-                <span className="terms-of-use-text139">Subscribe</span>
+                <span className="terms-of-use-text136">Subscribe</span>
               </div>
             </div>
-            <span className="terms-of-use-text140">
+            <span className="terms-of-use-text137">
               By subscribing to our newsletter you agree with our Terms and
               Conditions.
             </span>
             <div className="terms-of-use-contact">
-              <span className="terms-of-use-text141">Contact</span>
+              <span className="terms-of-use-text138">Contact</span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="terms-of-use-link3"
+                className="terms-of-use-link05"
               >
                 admin@connectaily.com
               </a>
-            </div>
-          </div>
-          <div className="terms-of-use-right1">
-            <div className="terms-of-use-category">
-              <span className="terms-of-use-text142">Solutions</span>
-              <div className="terms-of-use-links2">
-                <span className="terms-of-use-text143">
-                  Responsive Web Design
-                </span>
-                <span className="terms-of-use-text144">
-                  Responsive Prototypesv
-                </span>
-                <span className="terms-of-use-text145">Design to Code</span>
-                <span className="terms-of-use-text146">
-                  Static Website Builder
-                </span>
-                <span className="terms-of-use-text147">
-                  Static Website Generator
-                </span>
-              </div>
-            </div>
-            <div className="terms-of-use-category1">
-              <span className="terms-of-use-text148">Company</span>
-              <div className="terms-of-use-links3">
-                <span className="terms-of-use-text149">About</span>
-                <span className="terms-of-use-text150">Team</span>
-                <span className="terms-of-use-text151">News</span>
-                <span className="terms-of-use-text152">Partners</span>
-                <span className="terms-of-use-text153">Careers</span>
-                <span className="terms-of-use-text154">Press &amp; Media</span>
-              </div>
-            </div>
-            <div className="terms-of-use-category2">
-              <span className="terms-of-use-text155">Solutions</span>
-              <div className="terms-of-use-links4">
-                <span className="terms-of-use-text156">Twitter</span>
-                <span className="terms-of-use-text157">Linkedin</span>
-                <span className="terms-of-use-text158">Crunchbase</span>
-                <span className="terms-of-use-text159">Instagram</span>
-                <span className="terms-of-use-text160">Facebook</span>
-              </div>
             </div>
           </div>
         </div>
@@ -491,7 +478,7 @@ closeButton.addEventListener("click", function() {
             <div className="terms-of-use-container4">
               <div className="terms-of-use-container5">
                 <div className="terms-of-use-container6">
-                  <span className="terms-of-use-text161">
+                  <span className="terms-of-use-text139">
                     <br></br>
                     <br></br>
                     <span>©</span>
@@ -504,7 +491,7 @@ closeButton.addEventListener("click", function() {
               href="https://itwhistle.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="terms-of-use-link4"
+              className="terms-of-use-link06"
             >
               <img
                 alt="image"
@@ -512,7 +499,7 @@ closeButton.addEventListener("click", function() {
                 className="terms-of-use-image"
               />
             </a>
-            <span className="terms-of-use-text166">
+            <span className="terms-of-use-text144">
               <br></br>
               <br></br>
               <span>
@@ -523,7 +510,7 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/privacy"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="terms-of-use-link5"
+                className="terms-of-use-link07"
               >
                 Privacy
               </a>
@@ -539,11 +526,11 @@ closeButton.addEventListener("click", function() {
                 href="https://app.connectaily.com/pages/terms"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="terms-of-use-link6"
+                className="terms-of-use-link08"
               >
                 Te
               </a>
-              <span className="terms-of-use-text171">rms of use</span>
+              <span className="terms-of-use-text149">rms of use</span>
               <span>
                  
                 <span
@@ -554,7 +541,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="terms-of-use-link7"
+                className="terms-of-use-link09"
               >
                 Email us 
               </a>

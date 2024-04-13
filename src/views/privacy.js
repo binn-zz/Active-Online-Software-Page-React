@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
@@ -45,22 +46,44 @@ const Privacy = (props) => {
           <div className="privacy-desktop-navigation">
             <nav className="privacy-centered">
               <div className="privacy-left">
-                <img
-                  alt="pastedImage"
-                  src="/connectaily%20(26)-1500h.png"
-                  className="privacy-logo1"
-                />
+                <a href="https://connectaily.com" className="privacy-link">
+                  <img
+                    alt="pastedImage"
+                    src="/connectaily%20(26)-1500h.png"
+                    className="privacy-logo1"
+                  />
+                </a>
                 <div className="privacy-links1">
-                  <span className="Link">Solutions</span>
-                  <span className="Link">How it works</span>
-                  <span className="Link">Prices</span>
+                  <Link to="/" className="privacy-navlink Link">
+                    Solutions
+                  </Link>
+                  <Link to="/" className="privacy-navlink1 Link">
+                    How it works
+                  </Link>
+                  <Link to="/" className="privacy-navlink2 Link">
+                    Prices
+                  </Link>
                 </div>
               </div>
               <div className="privacy-right">
-                <span className="privacy-sign-in Link">Sign in</span>
-                <div className="privacy-get-started">
-                  <span className="privacy-text006">Get started</span>
-                </div>
+                <a
+                  href="https://app.connectaily.com/connectaily/login"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="privacy-sign-in Link"
+                >
+                  Sign in
+                </a>
+                <a
+                  href="https://app.connectaily.com/connectaily/register"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  className="privacy-link1"
+                >
+                  <div className="privacy-get-started">
+                    <span className="privacy-text003">Get started</span>
+                  </div>
+                </a>
                 <div id="open-mobile-menu" className="privacy-burger-menu">
                   <img
                     alt="pastedImage"
@@ -102,7 +125,7 @@ closeButton.addEventListener("click", function() {
         </div>
       </section>
       <header className="privacy-header">
-        <p className="privacy-text007">
+        <p className="privacy-text004">
           <span>Privacy Policy</span>
           <br></br>
           <br></br>
@@ -119,7 +142,7 @@ closeButton.addEventListener("click", function() {
             href="https://itwhistle.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="privacy-link"
+            className="privacy-link2"
           >
             IT WHISTLE CORPORATION
           </a>
@@ -356,7 +379,7 @@ closeButton.addEventListener("click", function() {
       <footer className="privacy-footer">
         <div className="privacy-top">
           <div className="privacy-left1">
-            <span className="privacy-text112">Subscribe to our newsletter</span>
+            <span className="privacy-text109">Subscribe to our newsletter</span>
             <div className="privacy-subscription">
               <input
                 type="email"
@@ -364,56 +387,21 @@ closeButton.addEventListener("click", function() {
                 className="privacy-textinput input"
               />
               <div className="privacy-subscribe">
-                <span className="privacy-text113">Subscribe</span>
+                <span className="privacy-text110">Subscribe</span>
               </div>
             </div>
-            <span className="privacy-text114">
+            <span className="privacy-text111">
               By subscribing to our newsletter you agree with our Terms and
               Conditions.
             </span>
             <div className="privacy-contact">
-              <span className="privacy-text115">Contact</span>
+              <span className="privacy-text112">Contact</span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="privacy-link1"
+                className="privacy-link3"
               >
                 admin@connectaily.com
               </a>
-            </div>
-          </div>
-          <div className="privacy-right1">
-            <div className="privacy-category">
-              <span className="privacy-text116">Solutions</span>
-              <div className="privacy-links2">
-                <span className="privacy-text117">Responsive Web Design</span>
-                <span className="privacy-text118">Responsive Prototypesv</span>
-                <span className="privacy-text119">Design to Code</span>
-                <span className="privacy-text120">Static Website Builder</span>
-                <span className="privacy-text121">
-                  Static Website Generator
-                </span>
-              </div>
-            </div>
-            <div className="privacy-category1">
-              <span className="privacy-text122">Company</span>
-              <div className="privacy-links3">
-                <span className="privacy-text123">About</span>
-                <span className="privacy-text124">Team</span>
-                <span className="privacy-text125">News</span>
-                <span className="privacy-text126">Partners</span>
-                <span className="privacy-text127">Careers</span>
-                <span className="privacy-text128">Press &amp; Media</span>
-              </div>
-            </div>
-            <div className="privacy-category2">
-              <span className="privacy-text129">Solutions</span>
-              <div className="privacy-links4">
-                <span className="privacy-text130">Twitter</span>
-                <span className="privacy-text131">Linkedin</span>
-                <span className="privacy-text132">Crunchbase</span>
-                <span className="privacy-text133">Instagram</span>
-                <span className="privacy-text134">Facebook</span>
-              </div>
             </div>
           </div>
         </div>
@@ -422,7 +410,7 @@ closeButton.addEventListener("click", function() {
             <div className="privacy-container4">
               <div className="privacy-container5">
                 <div className="privacy-container6">
-                  <span className="privacy-text135">
+                  <span className="privacy-text113">
                     <br></br>
                     <br></br>
                     <span>©</span>
@@ -435,7 +423,7 @@ closeButton.addEventListener("click", function() {
               href="https://itwhistle.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="privacy-link2"
+              className="privacy-link4"
             >
               <img
                 alt="image"
@@ -443,7 +431,7 @@ closeButton.addEventListener("click", function() {
                 className="privacy-image"
               />
             </a>
-            <span className="privacy-text140">
+            <span className="privacy-text118">
               <br></br>
               <br></br>
               <span>
@@ -454,11 +442,11 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/privacy"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="privacy-link3"
+                className="privacy-link5"
               >
                 Privac
               </a>
-              <span className="privacy-text144">y</span>
+              <span className="privacy-text122">y</span>
               <span>
                  
                 <span
@@ -471,7 +459,7 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/terms"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="privacy-link4"
+                className="privacy-link6"
               >
                 Terms of use
               </a>
@@ -485,7 +473,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="privacy-link5"
+                className="privacy-link7"
               >
                 Email us
               </a>

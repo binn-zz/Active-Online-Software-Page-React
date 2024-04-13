@@ -7,7 +7,6 @@ import './testimonal.css'
 const Testimonal = (props) => {
   return (
     <div className="testimonal-testimonal testimonal">
-      <span className="testimonal-text">{props.quote}</span>
       <div className="testimonal-author">
         <div className="testimonal-avatar">
           <img
@@ -27,6 +26,7 @@ const Testimonal = (props) => {
 }
 
 Testimonal.defaultProps = {
+  name1: 'Andy Smith',
   from: 'Vista Social',
   avatarAlt: 'image',
   avatarSrc:
@@ -37,6 +37,7 @@ Testimonal.defaultProps = {
 }
 
 Testimonal.propTypes = {
+  name1: PropTypes.string,
   from: PropTypes.string,
   avatarAlt: PropTypes.string,
   avatarSrc: PropTypes.string,

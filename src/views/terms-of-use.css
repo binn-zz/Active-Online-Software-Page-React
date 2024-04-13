@@ -100,16 +100,29 @@
   flex-direction: row;
   padding-bottom: 38px;
 }
+.terms-of-use-link {
+  display: contents;
+}
 .terms-of-use-logo1 {
   width: 139px;
   height: 43px;
   margin-left: var(--dl-space-space-halfunit);
+  text-decoration: none;
 }
 .terms-of-use-links1 {
   display: flex;
   align-items: center;
   margin-left: 33px;
   flex-direction: row;
+}
+.terms-of-use-navlink {
+  text-decoration: none;
+}
+.terms-of-use-navlink1 {
+  text-decoration: none;
+}
+.terms-of-use-navlink2 {
+  text-decoration: none;
 }
 .terms-of-use-right {
   height: 100%;
@@ -121,6 +134,10 @@
 }
 .terms-of-use-sign-in {
   margin-right: 20px;
+  text-decoration: none;
+}
+.terms-of-use-link01 {
+  display: contents;
 }
 .terms-of-use-get-started {
   cursor: pointer;
@@ -133,12 +150,13 @@
   padding-right: var(--dl-space-space-oneandhalfunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: #000000;
 }
 .terms-of-use-get-started:hover {
   background-color: #5228F5;
 }
-.terms-of-use-text006 {
+.terms-of-use-text003 {
   color: #ffffff;
   font-style: normal;
   font-weight: 600;
@@ -162,7 +180,7 @@
   align-items: center;
   flex-direction: column;
 }
-.terms-of-use-text007 {
+.terms-of-use-text004 {
   color: rgb(0, 0, 0);
   width: auto;
   height: auto;
@@ -174,18 +192,18 @@
   line-height: 20px;
   text-transform: capitalize;
 }
-.terms-of-use-link {
+.terms-of-use-link02 {
   color: var(--dl-color-template-blue-bg);
   text-decoration: underline;
 }
-.terms-of-use-text014 {
+.terms-of-use-text011 {
   font-weight: 700;
 }
-.terms-of-use-link1 {
+.terms-of-use-link03 {
   color: var(--dl-color-template-blue-bg);
   text-decoration: underline;
 }
-.terms-of-use-link2 {
+.terms-of-use-link04 {
   color: var(--dl-color-template-blue-bg);
   text-decoration: underline;
 }
@@ -224,7 +242,7 @@
   margin-right: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.terms-of-use-text138 {
+.terms-of-use-text135 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -269,13 +287,13 @@
 .terms-of-use-subscribe:hover {
   background-color: #000;
 }
-.terms-of-use-text139 {
+.terms-of-use-text136 {
   color: #ffffff;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-of-use-text140 {
+.terms-of-use-text137 {
   color: #686868;
   font-size: 14px;
 }
@@ -285,143 +303,15 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.terms-of-use-text141 {
+.terms-of-use-text138 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
 }
-.terms-of-use-link3 {
+.terms-of-use-link05 {
   color: rgb(196, 196, 196);
-}
-.terms-of-use-right1 {
-  gap: var(--dl-space-space-fiveunits);
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: var(--dl-space-space-threeunits);
-  flex-direction: row;
-  justify-content: flex-start;
-}
-.terms-of-use-category {
-  width: 240px;
-  display: flex;
-  align-items: stretch;
-  flex-direction: column;
-}
-.terms-of-use-text142 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.terms-of-use-links2 {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.terms-of-use-text143 {
-  color: rgb(196, 196, 196);
-  cursor: pointer;
-  font-size: 14px;
-}
-.terms-of-use-text144 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text145 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text146 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text147 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-category1 {
-  width: 240px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.terms-of-use-text148 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.terms-of-use-links3 {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.terms-of-use-text149 {
-  color: rgb(196, 196, 196);
-}
-.terms-of-use-text150 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text151 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text152 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text153 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text154 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-category2 {
-  width: 240px;
-  display: flex;
-  flex-direction: column;
-}
-.terms-of-use-text155 {
-  color: rgb(255, 255, 255);
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
-  margin-bottom: var(--dl-space-space-unit);
-}
-.terms-of-use-links4 {
-  gap: var(--dl-space-space-unit);
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.terms-of-use-text156 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text157 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text158 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text159 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
-}
-.terms-of-use-text160 {
-  color: rgb(196, 196, 196);
-  font-size: 14px;
 }
 .terms-of-use-bottom {
   width: 100%;
@@ -464,10 +354,10 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.terms-of-use-text161 {
+.terms-of-use-text139 {
   color: var(--dl-color-gray-white);
 }
-.terms-of-use-link4 {
+.terms-of-use-link06 {
   display: contents;
 }
 .terms-of-use-image {
@@ -478,19 +368,19 @@
   padding-left: 4px;
   text-decoration: none;
 }
-.terms-of-use-text166 {
+.terms-of-use-text144 {
   color: var(--dl-color-gray-white);
 }
-.terms-of-use-link5 {
+.terms-of-use-link07 {
   text-decoration: underline;
 }
-.terms-of-use-link6 {
+.terms-of-use-link08 {
   text-decoration: underline;
 }
-.terms-of-use-text171 {
+.terms-of-use-text149 {
   text-decoration: underline;
 }
-.terms-of-use-link7 {
+.terms-of-use-link09 {
   text-decoration: underline;
 }
 @media(max-width: 991px) {
@@ -547,35 +437,22 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .terms-of-use-text140 {
+  .terms-of-use-text137 {
     color: rgb(104, 104, 104);
     font-size: 14px;
   }
-  .terms-of-use-text141 {
+  .terms-of-use-text138 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .terms-of-use-link3 {
+  .terms-of-use-link05 {
     text-decoration: underline none;
   }
-  .terms-of-use-right1 {
-    gap: var(--dl-space-space-twounits);
-    flex-direction: column;
-  }
-  .terms-of-use-links2 {
-    gap: var(--dl-space-space-unit);
-  }
-  .terms-of-use-links3 {
-    gap: var(--dl-space-space-unit);
-  }
-  .terms-of-use-links4 {
-    gap: var(--dl-space-space-unit);
-  }
-  .terms-of-use-text161 {
+  .terms-of-use-text139 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
   }
-  .terms-of-use-text166 {
+  .terms-of-use-text144 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -616,7 +493,7 @@
     margin-top: var(--dl-space-space-fourunits);
     justify-content: center;
   }
-  .terms-of-use-text007 {
+  .terms-of-use-text004 {
     color: var(--dl-color-gray-black);
     font-size: 16px;
     margin-top: var(--dl-space-space-unit);
@@ -647,7 +524,7 @@
   .terms-of-use-logo1 {
     width: 110px;
   }
-  .terms-of-use-text007 {
+  .terms-of-use-text004 {
     color: var(--dl-color-gray-black);
     height: 6031px;
     font-size: 20px;
@@ -664,18 +541,18 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .terms-of-use-text166 {
+  .terms-of-use-text144 {
     color: var(--dl-color-gray-white);
     font-size: 12px;
     line-height: 25px;
   }
-  .terms-of-use-link5 {
+  .terms-of-use-link07 {
     text-decoration: underline;
   }
-  .terms-of-use-link6 {
+  .terms-of-use-link08 {
     text-decoration: underline;
   }
-  .terms-of-use-text171 {
+  .terms-of-use-text149 {
     text-decoration: underline;
   }
 }

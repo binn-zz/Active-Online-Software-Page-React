@@ -1,9 +1,6 @@
 .testimonal-testimonal {
   position: relative;
 }
-.testimonal-text {
-  line-height: 24px;
-}
 .testimonal-author {
   gap: var(--dl-space-space-unit);
   display: flex;
@@ -41,10 +38,6 @@
   color: rgb(0, 0, 0);
 }
 @media(max-width: 767px) {
-  .testimonal-text {
-    font-size: 14px;
-    line-height: 21px;
-  }
   .testimonal-image {
     width: 28px;
     height: 28px;
