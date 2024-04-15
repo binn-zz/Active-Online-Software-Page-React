@@ -193,18 +193,15 @@
   text-transform: capitalize;
 }
 .terms-of-use-link02 {
-  color: var(--dl-color-template-blue-bg);
   text-decoration: underline;
 }
 .terms-of-use-text011 {
   font-weight: 700;
 }
 .terms-of-use-link03 {
-  color: var(--dl-color-template-blue-bg);
   text-decoration: underline;
 }
-.terms-of-use-link04 {
-  color: var(--dl-color-template-blue-bg);
+.terms-of-use-link05 {
   text-decoration: underline;
 }
 .terms-of-use-banners {
@@ -242,7 +239,7 @@
   margin-right: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.terms-of-use-text135 {
+.terms-of-use-text138 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -287,13 +284,13 @@
 .terms-of-use-subscribe:hover {
   background-color: #000;
 }
-.terms-of-use-text136 {
+.terms-of-use-text139 {
   color: #ffffff;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-of-use-text137 {
+.terms-of-use-text140 {
   color: #686868;
   font-size: 14px;
 }
@@ -303,14 +300,14 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.terms-of-use-text138 {
+.terms-of-use-text141 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
   font-weight: 700;
   margin-bottom: var(--dl-space-space-unit);
 }
-.terms-of-use-link05 {
+.terms-of-use-link06 {
   color: rgb(196, 196, 196);
 }
 .terms-of-use-bottom {
@@ -354,10 +351,10 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.terms-of-use-text139 {
+.terms-of-use-text142 {
   color: var(--dl-color-gray-white);
 }
-.terms-of-use-link06 {
+.terms-of-use-link07 {
   display: contents;
 }
 .terms-of-use-image {
@@ -368,19 +365,19 @@
   padding-left: 4px;
   text-decoration: none;
 }
-.terms-of-use-text144 {
+.terms-of-use-text147 {
   color: var(--dl-color-gray-white);
-}
-.terms-of-use-link07 {
-  text-decoration: underline;
 }
 .terms-of-use-link08 {
   text-decoration: underline;
 }
-.terms-of-use-text149 {
+.terms-of-use-link09 {
   text-decoration: underline;
 }
-.terms-of-use-link09 {
+.terms-of-use-text152 {
+  text-decoration: underline;
+}
+.terms-of-use-link10 {
   text-decoration: underline;
 }
 @media(max-width: 991px) {
@@ -426,6 +423,32 @@
     width: 100%;
     max-width: 1200px;
   }
+  .terms-of-use-text004 {
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    font-family: Georgia;
+    line-height: 20px;
+    text-transform: capitalize;
+  }
+  .terms-of-use-link02 {
+    color: var(--dl-color-template-blue-bg);
+    text-decoration: underline;
+  }
+  .terms-of-use-text011 {
+    font-weight: 700;
+  }
+  .terms-of-use-link03 {
+    color: var(--dl-color-template-blue-bg);
+    text-decoration: underline;
+  }
+  .terms-of-use-link04 {
+    color: var(--dl-color-template-blue-bg);
+    text-decoration: underline;
+  }
+  .terms-of-use-link05 {
+    color: var(--dl-color-template-blue-bg);
+    text-decoration: underline;
+  }
   .terms-of-use-footer {
     padding: var(--dl-space-space-sixunits);
   }
@@ -437,22 +460,22 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .terms-of-use-text137 {
+  .terms-of-use-text140 {
     color: rgb(104, 104, 104);
     font-size: 14px;
   }
-  .terms-of-use-text138 {
+  .terms-of-use-text141 {
     margin-bottom: var(--dl-space-space-unit);
   }
-  .terms-of-use-link05 {
+  .terms-of-use-link06 {
     text-decoration: underline none;
   }
-  .terms-of-use-text139 {
+  .terms-of-use-text142 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
   }
-  .terms-of-use-text144 {
+  .terms-of-use-text147 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -541,18 +564,18 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .terms-of-use-text144 {
+  .terms-of-use-text147 {
     color: var(--dl-color-gray-white);
     font-size: 12px;
     line-height: 25px;
   }
-  .terms-of-use-link07 {
-    text-decoration: underline;
-  }
   .terms-of-use-link08 {
     text-decoration: underline;
   }
-  .terms-of-use-text149 {
+  .terms-of-use-link09 {
+    text-decoration: underline;
+  }
+  .terms-of-use-text152 {
     text-decoration: underline;
   }
 }
