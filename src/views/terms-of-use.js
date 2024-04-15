@@ -226,9 +226,10 @@ closeButton.addEventListener("click", function() {
           </a>
           <span>.</span>
           <br></br>
+          <br></br>
           <span>
-            1.5 (App’s) use and transfer to any other app of information
-            received from Google APIs will adhere to
+            1.5. Connectaily&apos;s use and transfer to any other app of
+            information received from Google APIs will adhere to
             <span
               dangerouslySetInnerHTML={{
                 __html: ' ',
@@ -236,17 +237,14 @@ closeButton.addEventListener("click", function() {
             />
           </span>
           <a
-            href="https://developers.google.com/terms/api-services-user-data-policy"
+            href="https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes"
             target="_blank"
             rel="noreferrer noopener"
             className="terms-of-use-link04"
           >
-            Google API Services
+            Google API Services User Data Policy
           </a>
-          <span>
-            {' '}
-            User Data Policy, including the Limited Use requirements.
-          </span>
+          <span>, including the Limited Use requirements.</span>
           <br></br>
           <br></br>
           <span>
@@ -467,7 +465,7 @@ closeButton.addEventListener("click", function() {
       <footer className="terms-of-use-footer">
         <div className="terms-of-use-top">
           <div className="terms-of-use-left1">
-            <span className="terms-of-use-text138">
+            <span className="terms-of-use-text139">
               Subscribe to our newsletter
             </span>
             <div className="terms-of-use-subscription">
@@ -477,15 +475,15 @@ closeButton.addEventListener("click", function() {
                 className="terms-of-use-textinput input"
               />
               <div className="terms-of-use-subscribe">
-                <span className="terms-of-use-text139">Subscribe</span>
+                <span className="terms-of-use-text140">Subscribe</span>
               </div>
             </div>
-            <span className="terms-of-use-text140">
+            <span className="terms-of-use-text141">
               By subscribing to our newsletter you agree with our Terms and
               Conditions.
             </span>
             <div className="terms-of-use-contact">
-              <span className="terms-of-use-text141">Contact</span>
+              <span className="terms-of-use-text142">Contact</span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
                 className="terms-of-use-link06"
@@ -500,7 +498,7 @@ closeButton.addEventListener("click", function() {
             <div className="terms-of-use-container4">
               <div className="terms-of-use-container5">
                 <div className="terms-of-use-container6">
-                  <span className="terms-of-use-text142">
+                  <span className="terms-of-use-text143">
                     <br></br>
                     <br></br>
                     <span>©</span>
@@ -521,7 +519,7 @@ closeButton.addEventListener("click", function() {
                 className="terms-of-use-image"
               />
             </a>
-            <span className="terms-of-use-text147">
+            <span className="terms-of-use-text148">
               <br></br>
               <br></br>
               <span>
@@ -552,7 +550,7 @@ closeButton.addEventListener("click", function() {
               >
                 Te
               </a>
-              <span className="terms-of-use-text152">rms of use</span>
+              <span className="terms-of-use-text153">rms of use</span>
               <span>
                  
                 <span

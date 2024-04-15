@@ -201,6 +201,9 @@
 .terms-of-use-link03 {
   text-decoration: underline;
 }
+.terms-of-use-link04 {
+  text-decoration: underline;
+}
 .terms-of-use-link05 {
   text-decoration: underline;
 }
@@ -239,7 +242,7 @@
   margin-right: var(--dl-space-space-twounits);
   flex-direction: column;
 }
-.terms-of-use-text138 {
+.terms-of-use-text139 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -284,13 +287,13 @@
 .terms-of-use-subscribe:hover {
   background-color: #000;
 }
-.terms-of-use-text139 {
+.terms-of-use-text140 {
   color: #ffffff;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
 }
-.terms-of-use-text140 {
+.terms-of-use-text141 {
   color: #686868;
   font-size: 14px;
 }
@@ -300,7 +303,7 @@
   align-items: flex-start;
   flex-direction: column;
 }
-.terms-of-use-text141 {
+.terms-of-use-text142 {
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-style: normal;
@@ -351,7 +354,7 @@
   align-items: flex-start;
   justify-content: flex-start;
 }
-.terms-of-use-text142 {
+.terms-of-use-text143 {
   color: var(--dl-color-gray-white);
 }
 .terms-of-use-link07 {
@@ -365,7 +368,7 @@
   padding-left: 4px;
   text-decoration: none;
 }
-.terms-of-use-text147 {
+.terms-of-use-text148 {
   color: var(--dl-color-gray-white);
 }
 .terms-of-use-link08 {
@@ -374,7 +377,7 @@
 .terms-of-use-link09 {
   text-decoration: underline;
 }
-.terms-of-use-text152 {
+.terms-of-use-text153 {
   text-decoration: underline;
 }
 .terms-of-use-link10 {
@@ -441,10 +444,6 @@
     color: var(--dl-color-template-blue-bg);
     text-decoration: underline;
   }
-  .terms-of-use-link04 {
-    color: var(--dl-color-template-blue-bg);
-    text-decoration: underline;
-  }
   .terms-of-use-link05 {
     color: var(--dl-color-template-blue-bg);
     text-decoration: underline;
@@ -460,22 +459,22 @@
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-threeunits);
   }
-  .terms-of-use-text140 {
+  .terms-of-use-text141 {
     color: rgb(104, 104, 104);
     font-size: 14px;
   }
-  .terms-of-use-text141 {
+  .terms-of-use-text142 {
     margin-bottom: var(--dl-space-space-unit);
   }
   .terms-of-use-link06 {
     text-decoration: underline none;
   }
-  .terms-of-use-text142 {
+  .terms-of-use-text143 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
   }
-  .terms-of-use-text147 {
+  .terms-of-use-text148 {
     font-size: 12px;
     line-height: 25px;
     margin-bottom: 0px;
@@ -564,7 +563,7 @@
     padding-right: var(--dl-space-space-halfunit);
     padding-bottom: var(--dl-space-space-halfunit);
   }
-  .terms-of-use-text147 {
+  .terms-of-use-text148 {
     color: var(--dl-color-gray-white);
     font-size: 12px;
     line-height: 25px;
@@ -575,7 +574,7 @@
   .terms-of-use-link09 {
     text-decoration: underline;
   }
-  .terms-of-use-text152 {
+  .terms-of-use-text153 {
     text-decoration: underline;
   }
 }
