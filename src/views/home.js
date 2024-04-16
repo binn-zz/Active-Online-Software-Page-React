@@ -10,8 +10,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Active Online Software Page</title>
-        <meta property="og:title" content="Active Online Software Page" />
+        <title>Connectaily</title>
+        <meta property="og:title" content="Connectaily" />
       </Helmet>
       <section className="home-hero">
         <div className="home-menu">
