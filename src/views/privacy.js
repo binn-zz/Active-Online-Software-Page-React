@@ -78,7 +78,7 @@ const Privacy = (props) => {
                   href="https://app.connectaily.com/connectaily/register"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="privacy-link1"
+                  className="privacy-link01"
                 >
                   <div className="privacy-get-started">
                     <span className="privacy-text003">Get started</span>
@@ -142,7 +142,7 @@ closeButton.addEventListener("click", function() {
             href="https://itwhistle.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="privacy-link2"
+            className="privacy-link02"
           >
             IT WHISTLE CORPORATION
           </a>
@@ -203,15 +203,44 @@ closeButton.addEventListener("click", function() {
             connectaily therefore requests permission to access the APIs
             provided by social networks and other information providers such as
             YouTube API Services, Facebook API, Pinterest API, TikTok API and
-            more. You can check here Google Privacy Policy. connectaily will
-            access the information required by the user through the authorized
-            APIs. This information will be processed solely for the benefit of
-            the administrator and will not be shared with third parties. The
-            administrator will be able to revoke the permissions without
-            accessing your connectaily account directly from the social network
-            or from the data provider. YouTube and other Google services can be
-            revoked from the Google security service.
+            more. You can check here
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
           </span>
+          <a
+            href="https://policies.google.com/privacy"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="privacy-link03"
+          >
+            Google Privacy Policy
+          </a>
+          <span>
+            . connectaily will access the information required by the user
+            through the authorized APIs. This information will be processed
+            solely for the benefit of the administrator and will not be shared
+            with third parties. The administrator will be able to revoke the
+            permissions without accessing your connectaily account directly from
+            the social network or from the data provider. YouTube and other
+            Google services can be revoked from the
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <a
+            href="https://security.google.com/settings"
+            target="_blank"
+            rel="noreferrer noopener"
+            className="privacy-link04"
+          >
+            Google security service
+          </a>
+          <span>.</span>
           <br></br>
           <br></br>
           <span>2. How We Use Your Information</span>
@@ -330,6 +359,28 @@ closeButton.addEventListener("click", function() {
             providing any personal information.
           </span>
           <br></br>
+          <br className="privacy-text088"></br>
+          <span className="privacy-text089">
+            You consent to the use of your data to generate text, images, and
+            other content via the
+            <span
+              dangerouslySetInnerHTML={{
+                __html: ' ',
+              }}
+            />
+          </span>
+          <span className="privacy-text090">OpenAI</span>
+          <span className="privacy-text091">
+            {' '}
+            API. This may include but is not limited to information provided in
+            your user profile, interactions with our platform, and any data
+            explicitly provided for content generation purposes. Your data will
+            be processed in accordance with our privacy policy and terms of
+            service. You retain ownership of any content generated using your
+            data. You may withdraw consent or request deletion of your data at
+            any time.
+          </span>
+          <br></br>
           <br></br>
           <span>6. Your Rights</span>
           <br></br>
@@ -379,7 +430,7 @@ closeButton.addEventListener("click", function() {
       <footer className="privacy-footer">
         <div className="privacy-top">
           <div className="privacy-left1">
-            <span className="privacy-text109">Subscribe to our newsletter</span>
+            <span className="privacy-text116">Subscribe to our newsletter</span>
             <div className="privacy-subscription">
               <input
                 type="email"
@@ -387,18 +438,18 @@ closeButton.addEventListener("click", function() {
                 className="privacy-textinput input"
               />
               <div className="privacy-subscribe">
-                <span className="privacy-text110">Subscribe</span>
+                <span className="privacy-text117">Subscribe</span>
               </div>
             </div>
-            <span className="privacy-text111">
+            <span className="privacy-text118">
               By subscribing to our newsletter you agree with our Terms and
               Conditions.
             </span>
             <div className="privacy-contact">
-              <span className="privacy-text112">Contact</span>
+              <span className="privacy-text119">Contact</span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="privacy-link3"
+                className="privacy-link05"
               >
                 admin@connectaily.com
               </a>
@@ -410,7 +461,7 @@ closeButton.addEventListener("click", function() {
             <div className="privacy-container4">
               <div className="privacy-container5">
                 <div className="privacy-container6">
-                  <span className="privacy-text113">
+                  <span className="privacy-text120">
                     <br></br>
                     <br></br>
                     <span>©</span>
@@ -423,7 +474,7 @@ closeButton.addEventListener("click", function() {
               href="https://itwhistle.com"
               target="_blank"
               rel="noreferrer noopener"
-              className="privacy-link4"
+              className="privacy-link06"
             >
               <img
                 alt="image"
@@ -431,7 +482,7 @@ closeButton.addEventListener("click", function() {
                 className="privacy-image"
               />
             </a>
-            <span className="privacy-text118">
+            <span className="privacy-text125">
               <br></br>
               <br></br>
               <span>
@@ -442,11 +493,11 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/privacy"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="privacy-link5"
+                className="privacy-link07"
               >
                 Privac
               </a>
-              <span className="privacy-text122">y</span>
+              <span className="privacy-text129">y</span>
               <span>
                  
                 <span
@@ -459,7 +510,7 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/terms"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="privacy-link6"
+                className="privacy-link08"
               >
                 Terms of use
               </a>
@@ -473,7 +524,7 @@ closeButton.addEventListener("click", function() {
               </span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="privacy-link7"
+                className="privacy-link09"
               >
                 Email us
               </a>
