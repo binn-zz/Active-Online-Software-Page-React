@@ -4,6 +4,7 @@ import Script from 'dangerous-html/react'
 import { Helmet } from 'react-helmet'
 
 import YouTube from '../components/you-tube'
+import CenteredContainer3 from '../components/centered-container3'
 import './home.css'
 
 const Home = (props) => {
@@ -129,7 +130,7 @@ closeButton.addEventListener("click", function() {
           </div>
         </div>
         <header className="home-header">
-          <h1 className="home-text001">
+          <h1 className="home-text01">
             <span>
               Boost Your
               <span
@@ -138,10 +139,10 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </span>
-            <span className="home-text003">Social Media</span>
+            <span className="home-text03">Social Media</span>
             <span> Presence with Connectaily</span>
           </h1>
-          <p className="home-text005">
+          <p className="home-text05">
             Automate your social media marketing with cutting-edge AI technology
           </p>
           <a
@@ -150,8 +151,8 @@ closeButton.addEventListener("click", function() {
             rel="noreferrer noopener"
             className="home-link07"
           >
-            <div className="home-get-started01">
-              <span className="home-text006">Get started</span>
+            <div className="home-get-started1">
+              <span className="home-text06">Get started</span>
             </div>
           </a>
         </header>
@@ -168,7 +169,7 @@ closeButton.addEventListener("click", function() {
       </section>
       <section className="home-features">
         <div className="home-title">
-          <span className="home-text007">
+          <span className="home-text07">
             <span>
               Let&apos;s grow your
               <span
@@ -177,7 +178,7 @@ closeButton.addEventListener("click", function() {
                 }}
               />
             </span>
-            <span className="home-text009">social media</span>
+            <span className="home-text09">social media</span>
             <span>
               <span
                 dangerouslySetInnerHTML={{
@@ -188,7 +189,7 @@ closeButton.addEventListener("click", function() {
             <br></br>
             <span>presence</span>
           </span>
-          <span className="home-text013">
+          <span className="home-text13">
             Hassle free automated social media marketing with AI
           </span>
         </div>
@@ -198,10 +199,10 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="pastedImage"
                 src="/pastedimage-fii6m-200h.png"
-                className="home-icon02"
+                className="home-icon2"
               />
-              <span className="home-text014">Schedule</span>
-              <span className="home-text015">
+              <span className="home-text14">Schedule</span>
+              <span className="home-text15">
                 Effortlessly schedule your social media posts, manage content,
                 and track analytics with our AI-powered platform. Grow your
                 audience, generate leads, and seamlessly integrate with other
@@ -213,10 +214,10 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="pastedImage"
                 src="/pastedimage-mimg-200h.png"
-                className="home-icon03"
+                className="home-icon3"
               />
-              <span className="home-text016">Publish</span>
-              <span className="home-text017">
+              <span className="home-text16">Publish</span>
+              <span className="home-text17">
                 Elevate your social media presence with Connectaily&apos;s
                 advanced AI-powered scheduling. Drive business growth, lead
                 generation, and seamless tool integration.All in one tool!
@@ -228,10 +229,10 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="pastedImage"
                 src="/pastedimage-l6p-200h.png"
-                className="home-icon04"
+                className="home-icon4"
               />
-              <span className="home-text018">Analyze</span>
-              <span className="home-text019">
+              <span className="home-text18">Analyze</span>
+              <span className="home-text19">
                 Stay ahead of the competition with our advanced social media
                 analytics tools. Track engagement, monitor trends, and optimize
                 your strategy for maximum results.
@@ -241,10 +242,10 @@ closeButton.addEventListener("click", function() {
               <img
                 alt="pastedImage"
                 src="/pastedimage-l6p-200h.png"
-                className="home-icon05"
+                className="home-icon5"
               />
-              <span className="home-text020">Get leads</span>
-              <span className="home-text021">
+              <span className="home-text20">Get leads</span>
+              <span className="home-text21">
                 Stay ahead of the competition with our advanced social media
                 analytics tools. Track engagement, monitor trends, and optimize
                 your strategy for maximum results.
@@ -262,7 +263,7 @@ closeButton.addEventListener("click", function() {
           <div className="home-author">
             <img alt="image" src="/srini-200w.png" className="home-avatar" />
             <span className="home-quote1">
-              <span className="home-text022">—  Srini</span>
+              <span className="home-text22">—  Srini</span>
               <span>, Founder and CEO, Mazelon</span>
             </span>
           </div>
@@ -272,11 +273,11 @@ closeButton.addEventListener("click", function() {
         <div className="home-banner-manage">
           <div className="home-container05">
             <div className="home-left1">
-              <span className="home-text024 sub-title">Content Management</span>
-              <span className="home-text025 title">
+              <span className="home-text24 sub-title">Content Management</span>
+              <span className="home-text25 title">
                 Manage all your platforms in just one place.
               </span>
-              <span className="home-text026">
+              <span className="home-text26">
                 Your all-in-one solution for social media marketing! With our
                 advanced AI technology we make managing your social media
                 accounts hassle-free. Let us help you grow your online presence
@@ -288,8 +289,8 @@ closeButton.addEventListener("click", function() {
                 rel="noreferrer noopener"
                 className="home-link08"
               >
-                <div className="home-get-started02 template-button">
-                  <span className="home-text027">Start Free</span>
+                <div className="home-get-started2 template-button">
+                  <span className="home-text27">Start Free</span>
                 </div>
               </a>
             </div>
@@ -312,7 +313,7 @@ closeButton.addEventListener("click", function() {
               />
             </div>
             <div className="home-right1">
-              <span className="home-text028 sub-title">
+              <span className="home-text28 sub-title">
                 Reporting Metrics
                 <span
                   dangerouslySetInnerHTML={{
@@ -320,12 +321,12 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <h2 className="home-text029 title">
+              <h2 className="home-text29 title">
                 Advanced analytics, easy to understand.
               </h2>
               <div className="home-category">
-                <span className="home-text030">Power reports</span>
-                <span className="home-text031">
+                <span className="home-text30">Power reports</span>
+                <span className="home-text31">
                   {' '}
                   With our cutting-edge AI technology and powerful analytics
                   tools, we make it easy for businesses to boost their online
@@ -340,8 +341,8 @@ closeButton.addEventListener("click", function() {
                   rel="noreferrer noopener"
                   className="home-link09"
                 >
-                  <div className="home-get-started03 template-button">
-                    <span className="home-text032">Get started</span>
+                  <div className="home-get-started3 template-button">
+                    <span className="home-text32">Get started</span>
                   </div>
                 </a>
               </div>
@@ -351,11 +352,11 @@ closeButton.addEventListener("click", function() {
         <div className="home-banner">
           <div className="home-container06">
             <div className="home-left2">
-              <span className="home-text033">Improve Scheduling</span>
-              <h2 className="home-text034 title">
+              <span className="home-text33">Improve Scheduling</span>
+              <h2 className="home-text34 title">
                 Powerful scheduler that saves you time
               </h2>
-              <span className="home-text035">
+              <span className="home-text35">
                 With our advanced scheduling feature, powered by AI technology,
                 we make it effortless for businesses to plan and automate posts.
                 Analyze performance, generate leads, and enjoy seamless
@@ -369,8 +370,8 @@ closeButton.addEventListener("click", function() {
                 rel="noreferrer noopener"
                 className="home-link10"
               >
-                <div className="home-get-started04 template-button">
-                  <span className="home-text036">Get started</span>
+                <div className="home-get-started4 template-button">
+                  <span className="home-text36">Get started</span>
                 </div>
               </a>
             </div>
@@ -387,11 +388,11 @@ closeButton.addEventListener("click", function() {
       <section className="home-integrations">
         <div className="home-centered-container1">
           <div className="home-heading">
-            <span className="home-text037 sub-title">Integrations</span>
+            <span className="home-text37 sub-title">Integrations</span>
             <span className="title">
               Integrated with the tools you know and love
             </span>
-            <span className="home-text039">
+            <span className="home-text39">
               Your ultimate social media marketing partner! Utilizing
               state-of-the-art AI technology, automated scheduling, and robust
               analytics tools, we empower businesses to boost their online
@@ -421,14 +422,14 @@ closeButton.addEventListener("click", function() {
       <section className="home-how-it-works">
         <div id="works" className="home-centered-container2">
           <div className="home-heading1">
-            <span className="home-text040">How it works</span>
-            <span className="home-text041 title">
+            <span className="home-text40">How it works</span>
+            <span className="home-text41 title">
               Being social and getting leads has never been easier
             </span>
           </div>
           <div className="home-category1">
             <div className="home-headng">
-              <span className="home-text042">
+              <span className="home-text42">
                 1 — Sign up
                 <span
                   dangerouslySetInnerHTML={{
@@ -436,7 +437,7 @@ closeButton.addEventListener("click", function() {
                   }}
                 />
               </span>
-              <span className="home-text043">
+              <span className="home-text43">
                 Enroll with Connectaily to access AI-generated social media
                 marketing, designed to efficiently expand your business
                 outreach.
@@ -447,8 +448,8 @@ closeButton.addEventListener("click", function() {
                 rel="noreferrer noopener"
                 className="home-link11"
               >
-                <div className="home-get-started05 template-button">
-                  <span className="home-text044">Get started</span>
+                <div className="home-get-started5 template-button">
+                  <span className="home-text44">Get started</span>
                 </div>
               </a>
             </div>
@@ -463,8 +464,8 @@ closeButton.addEventListener("click", function() {
           <div className="home-row">
             <div className="home-category2">
               <div className="home-headng1">
-                <span className="home-text045">2 — Act</span>
-                <span className="home-text046">
+                <span className="home-text45">2 — Act</span>
+                <span className="home-text46">
                   Integrate all your social media platforms seamlessly and
                   commence scheduling and posting content through
                   Connectaily&apos;s AI-driven capabilities.
@@ -478,8 +479,8 @@ closeButton.addEventListener("click", function() {
             </div>
             <div className="home-category3">
               <div className="home-headng2">
-                <span className="home-text047">3 — Scale</span>
-                <span className="home-text048">
+                <span className="home-text47">3 — Scale</span>
+                <span className="home-text48">
                   Utilize Connectaily to analyze daily statistics, thereby
                   validating and enhancing your social media presence to
                   effectively generate more leads.
@@ -495,324 +496,17 @@ closeButton.addEventListener("click", function() {
         </div>
       </section>
       <section className="home-pricing">
-        <div id="price" className="home-centered-container3">
-          <div className="home-heading2">
-            <span className="home-text049 title">
-              Pricing for all kind of businesses
-            </span>
-            <span className="home-text050">
-              Create next-generation solutions for small business customers with
-              pricing options that accommodate everyone.
-            </span>
-            <div className="home-selection">
-              <span className="home-text051">Monthly</span>
-              <span className="home-text052">Yearly</span>
-            </div>
-          </div>
-          <div className="home-cards1">
-            <div className="home-card">
-              <span className="home-text053">Free</span>
-              <span className="home-text054">
-                Register and try connectaily for free
-              </span>
-              <a
-                href="https://app.connectaily.com/connectaily/register"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link12"
-              >
-                <div className="home-get-started06 template-button">
-                  <span className="home-text055">Start for free</span>
-                </div>
-              </a>
-              <span className="home-text056">What&apos;s included</span>
-              <div className="home-bullet-points">
-                <div className="home-point">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon06"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text057">
-                    <span>No. of Social Accounts- 5</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point01">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon08"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text060">
-                    <span>No. of Brand Accounts- 1</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point02">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon10"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text063">
-                    <span>No. of Workspace Users- 1</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point03">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon12"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text066">
-                    <span>No. of AI Credits- 10</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point04">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon14"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text069">
-                    <span>Workspace Store- 500 MB</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point05">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon16"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text072">
-                    <span>No. of Scheduled  Posts- 10</span>
-                    <br></br>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="home-card1">
-              <span className="home-text075">Basic</span>
-              <span className="home-text076">
-                Get exclusive access with $25 per month
-              </span>
-              <a
-                href="https://app.connectaily.com/connectaily/register"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link13"
-              >
-                <div className="home-get-started07 template-button">
-                  <span className="home-text077">
-                    <span>Buy Now</span>
-                    <br></br>
-                  </span>
-                </div>
-              </a>
-              <span className="home-text080">What&apos;s included</span>
-              <div className="home-bullet-points1">
-                <div className="home-point06">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon18"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text081">
-                    <span>No. of Social Accounts- Unlimited</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point07">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon20"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text084">
-                    <span>No. of Brand Accounts- 2</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point08">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon22"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text087">
-                    <span>No. of Workspace Users- 5</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point09">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon24"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text090">
-                    <span>No. of AI Credits- 40</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point10">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon26"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text093">
-                    <span>Workspace Store- 2 GB</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point11">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon28"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text096">
-                    <span>No. of Scheduled  Posts- 30</span>
-                    <br></br>
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="home-card2">
-              <span className="home-text099">Pro</span>
-              <span className="home-text100">
-                Upgrade to our Pro Plan for $55 per month unrivaled social media
-                marketing capabilities.
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <a
-                href="https://app.connectaily.com/connectaily/register"
-                target="_blank"
-                rel="noreferrer noopener"
-                className="home-link14"
-              >
-                <div className="home-get-started08 template-button">
-                  <span className="home-text101">
-                    <span>Buy Now</span>
-                    <br></br>
-                  </span>
-                </div>
-              </a>
-              <span className="home-text104">What&apos;s included</span>
-              <div className="home-bullet-points2">
-                <div className="home-point12"></div>
-                <div className="home-point13">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon30"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text105">
-                    <span className="home-text106">
-                      No. of Social Accounts- Unlimited
-                    </span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point14">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon32"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text108">
-                    <span className="home-text109">
-                      No. of Brand Accounts- Unlimited
-                    </span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point15">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon34"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text111">
-                    No. of Workspace Users- Unlimited
-                  </span>
-                </div>
-                <div className="home-point16">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon36"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text112">
-                    <span className="home-text113">No. of AI Credits- 200</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point17">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon38"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text115">
-                    <span>Workspace Store- 5 GB</span>
-                    <br></br>
-                  </span>
-                </div>
-                <div className="home-point18">
-                  <svg
-                    viewBox="0 0 877.7142857142857 1024"
-                    className="home-icon40"
-                  >
-                    <path d="M877.714 512c0 242.286-196.571 438.857-438.857 438.857s-438.857-196.571-438.857-438.857 196.571-438.857 438.857-438.857 438.857 196.571 438.857 438.857z"></path>
-                  </svg>
-                  <span className="home-text118">
-                    <span className="home-text119">
-                      No. of Scheduled  Posts- Unlimited
-                    </span>
-                    <br></br>
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <CenteredContainer3></CenteredContainer3>
       </section>
       <section className="home-action-bar">
         <div className="home-action">
-          <div className="home-heading3">
-            <span className="home-text121 title">
+          <div className="home-heading2">
+            <span className="home-text49 title">
               <span>Get leads now </span>
               <br></br>
               <span>with Connectaily!</span>
             </span>
-            <span className="home-text125">
+            <span className="home-text53">
               Discover the ultimate solution for lead generation with
               Connectaily. Our innovative AI-driven platform empowers you to not
               only enhance your social media presence but also strategically
@@ -825,10 +519,10 @@ closeButton.addEventListener("click", function() {
               href="https://app.connectaily.com/connectaily/register"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link15"
+              className="home-link12"
             >
-              <div className="home-get-started09 template-button">
-                <span className="home-text126">
+              <div className="home-get-started6 template-button">
+                <span className="home-text54">
                   <span>Start free</span>
                   <br></br>
                 </span>
@@ -847,7 +541,7 @@ closeButton.addEventListener("click", function() {
       <footer className="home-footer">
         <div className="home-top">
           <div className="home-left3">
-            <span className="home-text129">Subscribe to our newsletter</span>
+            <span className="home-text57">Subscribe to our newsletter</span>
             <div className="home-subscription">
               <input
                 type="email"
@@ -855,10 +549,10 @@ closeButton.addEventListener("click", function() {
                 className="home-textinput input"
               />
               <div className="home-subscribe">
-                <span className="home-text130">Subscribe</span>
+                <span className="home-text58">Subscribe</span>
               </div>
             </div>
-            <span className="home-text131">
+            <span className="home-text59">
               <span>
                 By subscribing to our newsletter you agree with our
                 <span
@@ -871,17 +565,17 @@ closeButton.addEventListener("click", function() {
                 href="https://connectaily.com/terms"
                 target="_blank"
                 rel="noreferrer noopener"
-                className="home-link16"
+                className="home-link13"
               >
                 Terms and Conditions
               </a>
               <span>.</span>
             </span>
             <div className="home-contact">
-              <span className="home-text134">Contact</span>
+              <span className="home-text62">Contact</span>
               <a
                 href="mailto:admin@connectaily.com?subject=Support"
-                className="home-link17"
+                className="home-link14"
               >
                 admin@connectaily.com
               </a>
@@ -893,14 +587,14 @@ closeButton.addEventListener("click", function() {
             <div className="home-container12">
               <div className="home-container13">
                 <div className="home-container14">
-                  <span className="home-text135">
+                  <span className="home-text63">
                     <br></br>
                     <span>©</span>
                     <span>2024 Connectaily • Crafted by</span>
                     <br></br>
                     <a
                       href="mailto:admin@connectaily.com?subject=Support"
-                      className="home-link18"
+                      className="home-link15"
                     >
                       Email us
                     </a>
@@ -909,7 +603,7 @@ closeButton.addEventListener("click", function() {
                       href="https://connectaily.com/privacy"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link19"
+                      className="home-link16"
                     >
                       Privacy
                     </a>
@@ -918,7 +612,7 @@ closeButton.addEventListener("click", function() {
                       href="https://connectaily.com/terms"
                       target="_blank"
                       rel="noreferrer noopener"
-                      className="home-link20"
+                      className="home-link17"
                     >
                       Terms of use
                     </a>
@@ -940,7 +634,7 @@ closeButton.addEventListener("click", function() {
             href="https://itwhistle.com"
             target="_blank"
             rel="noreferrer noopener"
-            className="home-link21"
+            className="home-link18"
           >
             <img
               alt="image"
