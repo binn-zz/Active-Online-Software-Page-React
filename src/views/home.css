@@ -1551,7 +1551,7 @@
     margin-bottom: 0px;
   }
   .home-headng {
-    border-color: var(--dl-color-gray-black);
+    border-color: #FFA500;
     border-width: 1px;
     border-radius: var(--dl-radius-radius-radius4);
     padding-bottom: 0px;
@@ -1696,6 +1696,9 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
     flex-direction: column;
+  }
+  .home-headng {
+    border-color: #FFA500;
   }
   .home-pricing {
     padding-left: var(--dl-space-space-oneandhalfunits);
