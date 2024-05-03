@@ -272,8 +272,7 @@ const CenteredContainer3 = (props) => {
           </a>
           <span className="centered-container3-text81">{props.text9}</span>
           <div className="centered-container3-bullet-points2">
-            <div className="centered-container3-point12"></div>
-            <div className="centered-container3-point13">
+            <div className="centered-container3-point12">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="centered-container3-icon24"
@@ -287,7 +286,7 @@ const CenteredContainer3 = (props) => {
                 <br></br>
               </span>
             </div>
-            <div className="centered-container3-point14">
+            <div className="centered-container3-point13">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="centered-container3-icon26"
@@ -301,7 +300,7 @@ const CenteredContainer3 = (props) => {
                 <br></br>
               </span>
             </div>
-            <div className="centered-container3-point15">
+            <div className="centered-container3-point14">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="centered-container3-icon28"
@@ -310,7 +309,7 @@ const CenteredContainer3 = (props) => {
               </svg>
               <span className="centered-container3-text88">{props.text11}</span>
             </div>
-            <div className="centered-container3-point16">
+            <div className="centered-container3-point15">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="centered-container3-icon30"
@@ -324,7 +323,7 @@ const CenteredContainer3 = (props) => {
                 <br></br>
               </span>
             </div>
-            <div className="centered-container3-point17">
+            <div className="centered-container3-point16">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="centered-container3-icon32"
@@ -336,7 +335,7 @@ const CenteredContainer3 = (props) => {
                 <br></br>
               </span>
             </div>
-            <div className="centered-container3-point18">
+            <div className="centered-container3-point17">
               <svg
                 viewBox="0 0 877.7142857142857 1024"
                 className="centered-container3-icon34"

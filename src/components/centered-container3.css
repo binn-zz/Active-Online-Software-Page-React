@@ -481,13 +481,6 @@
   flex-direction: column;
 }
 .centered-container3-point12 {
-  border: 2px dashed rgba(120, 120, 120, 0.4);
-  display: flex;
-  align-items: center;
-  margin-bottom: var(--dl-space-space-halfunit);
-  flex-direction: row;
-}
-.centered-container3-point13 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -507,7 +500,7 @@
 .centered-container3-text83 {
   color: var(--dl-color-gray-white);
 }
-.centered-container3-point14 {
+.centered-container3-point13 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -527,7 +520,7 @@
 .centered-container3-text86 {
   color: var(--dl-color-gray-white);
 }
-.centered-container3-point15 {
+.centered-container3-point14 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -545,7 +538,7 @@
   font-weight: 400;
   margin-left: var(--dl-space-space-halfunit);
 }
-.centered-container3-point16 {
+.centered-container3-point15 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -565,7 +558,7 @@
 .centered-container3-text90 {
   color: var(--dl-color-gray-white);
 }
-.centered-container3-point17 {
+.centered-container3-point16 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -583,7 +576,7 @@
   font-weight: 400;
   margin-left: var(--dl-space-space-halfunit);
 }
-.centered-container3-point18 {
+.centered-container3-point17 {
   display: flex;
   align-items: center;
   margin-bottom: var(--dl-space-space-halfunit);
@@ -687,9 +680,23 @@
   .centered-container3-text70 {
     font-size: 28px;
   }
+  .centered-container3-bullet-points2 {
+    width: 211px;
+    height: 224px;
+  }
 }
 @media(max-width: 479px) {
   .centered-container3-get-started2 {
     background-color: var(--dl-color-gray-white);
+  }
+  .centered-container3-bullet-points2 {
+    width: 211px;
+    height: 247px;
+  }
+  .centered-container3-text82 {
+    font-size: 14px;
+  }
+  .centered-container3-text83 {
+    color: var(--dl-color-gray-white);
   }
 }
