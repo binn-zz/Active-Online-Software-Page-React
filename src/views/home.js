@@ -25,16 +25,20 @@ const Home = (props) => {
             <div className="home-links">
               <a
                 href="https://connectaily.com/#solution"
-                target="_blank"
-                rel="noreferrer noopener"
                 className="home-text Link"
               >
                 Solutions
               </a>
-              <a href="#works" className="home-link Link">
+              <a
+                href="https://connectaily.com/#works"
+                className="home-link Link"
+              >
                 How it works
               </a>
-              <a href="#price" className="home-link01 Link">
+              <a
+                href="https://connectaily.com/#price"
+                className="home-link01 Link"
+              >
                 Prices
               </a>
             </div>
@@ -413,7 +417,7 @@ closeButton.addEventListener("click", function() {
                 <YouTube pastedImageSrc="/logos/pinterest%20logo-200h.png"></YouTube>
                 <YouTube pastedImageSrc="/logos/group%201014-200h.png"></YouTube>
                 <YouTube pastedImageSrc="/logos/group%201015-200h.png"></YouTube>
-                <YouTube pastedImageSrc="/logos/group%201017-200h.png"></YouTube>
+                <YouTube pastedImageSrc="/mastodon-logo-200h.png"></YouTube>
               </div>
             </div>
           </div>

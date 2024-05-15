@@ -1636,6 +1636,12 @@
   .home-sign-in {
     text-decoration: none;
   }
+  .home-link06 {
+    color: rgb(255, 255, 255);
+  }
+  .home-mobile-menu-button {
+    padding-bottom: 0px;
+  }
   .home-text05 {
     color: var(--dl-color-gray-black);
     font-size: 20px;
